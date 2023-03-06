@@ -50,7 +50,7 @@ a:hover {
     margin-right: 30px;
 }
 
-.haid {
+.hide {
     display: none;
 }
 
@@ -61,6 +61,16 @@ a:hover {
 .fade {
 	animation: fade;
 	animation-duration: 1.5s;
+}
+
+@keyframes fade {
+	from {
+		opacity: 0.1;
+	}
+
+	to {
+		opacity: 1;
+	}
 }
 
 .content{
