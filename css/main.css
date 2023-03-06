@@ -12,6 +12,14 @@ header {
     background-color: #161b22; 
 }
 
+h1 {
+    color:rgb(187, 184, 184)
+}
+
+p {
+    color: #ffff
+}
+
 .header-item {
     position: relative;
     display: flex;
@@ -56,14 +64,12 @@ a:hover {
 }
 
 .content{
-    display: flex;
     align-items: center;
     justify-content: center;
     width: 1216px;
     border-radius: 2%;
     margin: auto;
     margin-top: 40px;
-    border: 2px solid rgb(56, 56, 56);
 }
 
 table{
@@ -108,4 +114,28 @@ td {
     font-size: 48px;
     font-weight: 700;
     color: #000;
+}
+
+#ani {
+    display: inline-block;
+    color: 
+#e91a0c;
+    line-height: 1;
+    text-decoration: none;
+    cursor: pointer;
+}
+#ani:after {
+    background-color: 
+#ff8800f5;
+    display: block;
+    content: "";
+    height: 3px;
+    width: 0%;
+    -webkit-transition: width .3s ease-in-out;
+    -moz--transition: width .3s ease-in-out;
+    transition: width .3s ease-in-out;
+}
+#ani:hover:after,
+#ani:focus:after {
+    width: 100%;
 }

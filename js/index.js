@@ -9,21 +9,21 @@ let index = 1;
 current.textContent = index;
 
 btnNext.addEventListener('click', () => {
-    if (index < 5) {
-        current.textContent = index++;
+    if (index < 4) {
+        index++
+        current.textContent = index;
     } else{
         index = 1;
         current.textContent = index;
     }
-    
 })
 
 btnPrev.addEventListener('click', () => {
-    if (index > 0) {
-        current.textContent = index--;
+    if (index > 1) {
+        index--
+        current.textContent = index;
     } else{
         index = 4;
         current.textContent = index;
     }
-    
 })
