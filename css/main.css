@@ -1,37 +1,43 @@
 * {
     font-family: "Google Sans",sans-serif;
-    font-weight: 500;
+    margin: 0%;
+    padding: 0%;
 }
 
 body {
 background: #0d1117;
-margin: 0%;
 }
 
 header {
-    background-color: #161b22; 
+    background-color: #161b22;
+    position: relative;
 }
 
 h1 {
-    color:rgb(187, 184, 184)
+    color:rgb(187, 184, 184);
+    text-align: center;
 }
 
 p {
-    color: #ffff
+    color: #ffff;
+    text-align: justify;
+    line-height: 1.5;
+    font-size: 28px;
+    text-indent: 35px;
 }
 
+
 .header-item {
-    position: relative;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: 60px;
 }
 
 a {
     text-decoration: none;
     color: #f0f6fc3f;
     display: flex;
-    align-items: center;
 }
 
 a:hover {
@@ -93,12 +99,11 @@ table{
 td {
     padding: 1%;
     border-bottom: 1px solid #f0f6fc3f;
+    text-align: center;
 }
 
 .nav {
     background-color: #161b25; 
-    margin: 0%;
-    padding: 0%;
 }
 
 .counter {
@@ -107,7 +112,7 @@ td {
     width: 180px;
     align-items: center;
     font-size: 24px;
-    color: rgba(0,0,0,.5);
+    color: rgba(180, 180, 180, 0.603);
 }
 
 .prev {
@@ -123,10 +128,11 @@ td {
 #current {
     font-size: 48px;
     font-weight: 700;
-    color: #000;
+    color: rgb(180, 180, 180);
 }
 
 #ani {
+    text-indent: 0px;
     display: inline-block;
     color: 
 #e91a0c;
