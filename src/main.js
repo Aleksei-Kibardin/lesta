@@ -4,7 +4,7 @@ const btnNext = document.querySelector('.next'),
     current = document.querySelector('#current'),
     content = document.querySelectorAll('.content')
 
-let index = 1;
+let index = 4;
 
 current.textContent = index;
 
